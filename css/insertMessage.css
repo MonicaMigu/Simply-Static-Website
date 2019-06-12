@@ -1,0 +1,61 @@
+.middle .content {
+    min-height: 15rem;
+    width: 100%;
+    margin: 20px 20px 20px 242px;
+    padding: 20px;
+    font-size: 14pt;
+    box-shadow: 0px 0px 6px 1px #888;
+    border-radius: 15px;
+}
+
+.middle .content .insert-form {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.middle .content h2 {
+    font-size: 18pt;
+    margin: 20px 0;
+}
+
+.middle .content .insert-form form {
+    height: 100%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.middle .content .insert-form form .input-box {
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.middle .content .insert-form form .paragraph {
+    height: 60px;
+    padding: 5px;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.middle .content .insert-form a.submit {
+    font-size: 16pt;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    line-height: 40px;
+    background-color: #bbb;
+    border: 0 solid;
+    border-radius: 5px;
+}
+
+.middle .content .insert-form a.submit:hover {
+    color: #333;
+    background-color: #ccc;
+}
